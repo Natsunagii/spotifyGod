@@ -53,7 +53,6 @@ def find_track_info(track_name):
     else:
         print("Не найдено подходящих треков для введенного запроса.")
 
-
 # ---------- find track----------
 track_name = input("Введите название трека: ")
 tracks = find_track_info(track_name)
